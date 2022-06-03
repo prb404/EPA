@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "prb"
+  },
+  "text": {
+    "more": "This graph represent the result of a qualitive analysis (content analysis of 52 mindmaps representing PLE).\nContent analysis is based on presence (or not) of indicators allowing to identify states of consciousness of Learning Strategies (11 items in 4 categories : Cognitive, Metacognitive, Affective and Resources), Self-Efficacy (8 items) and Motivation (1 items).\nNodes sizes depend on percent of total presence of variables and indicators.\nSome edges weights also depend on percent of presence of variables.\nThe whole graph is under ForceAtlas layout which allow to spatialize Small-World / Scale free networks.\nIt is focused on quality for exploring data and allow a rigourous interpretation of the graph.\nIn this case, it allows us to identify communities based on their state of consciousness of some psychological variables through their own representation of a Personal Learning Environment (PLE).",
+    "intro": "Author : Pierre Bellet\nDate : 2022\nKind: Force-directed\nComplexity : O(N²)\nLayout: ForceAtlas\nGraph size: 1 to 100 nodes\nNodes: 81\nEdges: 505\nUse edge weight: Yes",
+    "title": "PLE Analysis"
+  },
+  "legend": {
+    "edgeLabel": "Weighted relations",
+    "colorLabel": "Communities, Observations and Psychological Variables",
+    "nodeLabel": "Psychological variables (related to Learning Strategies, Self-Efficacy and Motivation) and observations about each mindmap regarding its community (C1 or C2)"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "variable psy",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": true,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
