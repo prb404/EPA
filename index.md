@@ -4,7 +4,7 @@ layout: default
 
 ## What is this about?
 
-[![SNA PLE link](imagess/SNA_PLE_graph.png)](https://example.com)
+[![SNA PLE link](images/SNA_PLE_graph.png)](./sna.html)
 [This is the result of the SNA (.html)](./sna.html)
 
 ### This is the demonstration
