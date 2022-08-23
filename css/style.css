@@ -37,7 +37,7 @@ html,body {
 	height: 100%;
 	top: 0;
 	left: 0;
-	background-color: #222;
+	background-color: #eee;
 	background-position: center center;
 	background-repeat: no-repeat;
 	-webkit-touch-callout: none;
@@ -187,8 +187,6 @@ font-size:14px;
 }
 
 #developercontainer {
-	visibility: hidden;
-    display: none;
 	margin-left:25px;
 	margin-bottom:25px;
 	position:fixed;
@@ -226,7 +224,6 @@ width: 100%;
 height: 72px;
 background-repeat: no-repeat;
 margin-bottom:20px;
-display: none;
 }
 
 #maintitle h1 {
@@ -261,11 +258,9 @@ font-weight: bold;
 
 #titletext {
 padding: 6px 0 10px 0;
-white-space: break-spaces;
 }
 
 #info {
-	padding-top:10px;
 	padding-bottom:15px;
 }
 
@@ -414,7 +409,6 @@ background-image: url('../images/sprite.png');
 #legend dd {
 margin-bottom: 8px;
 color: #000;
-white-space: break-spaces;
 }
 
 #mainpanel .infos dd {
@@ -525,7 +519,6 @@ display: none;
 display: none;
 background: #fff;
 padding: 1px 10px 10px 10px;
-white-space: break-spaces;
 }
 
 #information h3 {
